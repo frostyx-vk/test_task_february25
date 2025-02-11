@@ -1,10 +1,13 @@
 import s from './Homepage.module.css'
+import EditingTable from '../components/EditingTable/EditingTable'
 
 function Homepage() {
   return (
-    <div className="App">
-
-    </div>
+    <main className={s.container}>
+      <section className={s.wrapperTable}>
+        <EditingTable />
+      </section>
+    </main>
   );
 }
 
