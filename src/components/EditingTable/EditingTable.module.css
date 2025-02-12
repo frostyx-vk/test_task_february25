@@ -5,7 +5,7 @@
     align-items: center;
 }
 
-.editableTable {
+.editingTable {
     width: 100%;
     max-width: 1980px;
     border-collapse: separate;
