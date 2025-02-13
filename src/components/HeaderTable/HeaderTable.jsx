@@ -8,8 +8,8 @@ function HeaderTable({ theadData, editCell }) {
             if (id === 3) {
                 const currentValue = e.target.value;
 
-                if (/[^А-Яа-яA-Za-z.: ]/.test(currentValue)) {
-                    e.target.value = currentValue.replace(/[^А-Яа-яA-Za-z.: ]/g, '');
+                if (/[^А-Яа-яЁё.: ]/.test(currentValue)) {
+                    e.target.value = currentValue.replace(/[^А-Яа-яЁё.: ]/g, '');
                 };
             }
         };
