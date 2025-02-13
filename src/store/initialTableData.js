@@ -3,7 +3,7 @@ export const initialTableData = {
         { id: 1, value: '30 января 2024', colspan: 1 },
         { id: 2, value: 'Смена 2', colspan: 1 },
         { id: 3, value: 'Мастер: Иванов И. И.', colspan: 3 },
-        { id: 4, value: 'РПТКМ-120', colspan: 1 }
+        { id: 4, value: 'РПТКМ-120', colspan: 3 }
     ],
     tbodyData: [
         {
