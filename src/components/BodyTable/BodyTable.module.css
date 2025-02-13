@@ -28,3 +28,7 @@
 .changeColor {
     color: red;
 }
+
+tr td textarea {
+    text-align: left !important;
+}
